@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VisualTicTacToe:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VisualTicTacToe_jar</output-path>
+    <root id="archive" name="VisualTicTacToe.jar">
+      <element id="module-output" name="VisualTicTacToe" />
+    </root>
+  </artifact>
+</component>

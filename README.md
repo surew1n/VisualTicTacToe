@@ -1,3 +1,3 @@
 # VisualTicTacToe
 
-Simple tic-tac-toe game
+Simple tic-tac-toe game with a GUI

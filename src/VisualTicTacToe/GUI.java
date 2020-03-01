@@ -1,22 +1,36 @@
+package VisualTicTacToe;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
 public class GUI {
+    JButton b1 = new JButton("");
+    JButton b2 = new JButton("");
+    JButton b3 = new JButton("");
+    JButton b4 = new JButton("");
+    JButton b5 = new JButton("");
+    JButton b6 = new JButton("");
+    JButton b7 = new JButton("");
+    JButton b8 = new JButton("");
+    JButton b9 = new JButton("");
+    static JTextField textField = new JTextField("Welcome to Tic Tac Toe");
+
     public GUI() {
         JFrame frame = new JFrame("Tic Tac Toe");
         JPanel mainPanel = new JPanel();
-        JTextField textField = new JTextField("Welcome to Tic Tac Toe");
         ImageIcon image = new ImageIcon("src/board.png");
         JLabel imageLabel = new JLabel(image);
+        Font font = new Font(Font.SERIF, Font.BOLD, 40);
+        Font tileFont = new Font(Font.SANS_SERIF, Font.BOLD, 100);
 
-        JButton b1 = new JButton("");
         b1.setOpaque(false);
         b1.setContentAreaFilled(false);
         b1.setBorderPainted(false);
+        b1.setFont(tileFont);
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b1);
             }
         });
         b1.addMouseListener(new MouseAdapter() {
@@ -29,13 +43,13 @@ public class GUI {
                 b1.setOpaque(false);
             }
         });
-        JButton b2 = new JButton("");
         b2.setOpaque(false);
         b2.setContentAreaFilled(false);
         b2.setBorderPainted(false);
+        b2.setFont(tileFont);
         b2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b2);
             }
         });
         b2.addMouseListener(new MouseAdapter() {
@@ -48,13 +62,13 @@ public class GUI {
                 b2.setOpaque(false);
             }
         });
-        JButton b3 = new JButton("");
         b3.setOpaque(false);
         b3.setContentAreaFilled(false);
         b3.setBorderPainted(false);
+        b3.setFont(tileFont);
         b3.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b3);
             }
         });
         b3.addMouseListener(new MouseAdapter() {
@@ -67,13 +81,13 @@ public class GUI {
                 b3.setOpaque(false);
             }
         });
-        JButton b4 = new JButton("");
         b4.setOpaque(false);
         b4.setContentAreaFilled(false);
         b4.setBorderPainted(false);
+        b4.setFont(tileFont);
         b4.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b4);
             }
         });
         b4.addMouseListener(new MouseAdapter() {
@@ -86,13 +100,13 @@ public class GUI {
                 b4.setOpaque(false);
             }
         });
-        JButton b5 = new JButton("");
         b5.setOpaque(false);
         b5.setContentAreaFilled(false);
         b5.setBorderPainted(false);
+        b5.setFont(tileFont);
         b5.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b5);
             }
         });
         b5.addMouseListener(new MouseAdapter() {
@@ -105,13 +119,13 @@ public class GUI {
                 b5.setOpaque(false);
             }
         });
-        JButton b6 = new JButton("");
         b6.setOpaque(false);
         b6.setContentAreaFilled(false);
         b6.setBorderPainted(false);
+        b6.setFont(tileFont);
         b6.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b6);
             }
         });
         b6.addMouseListener(new MouseAdapter() {
@@ -124,13 +138,13 @@ public class GUI {
                 b6.setOpaque(false);
             }
         });
-        JButton b7 = new JButton("");
         b7.setOpaque(false);
         b7.setContentAreaFilled(false);
         b7.setBorderPainted(false);
+        b7.setFont(tileFont);
         b7.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b7);
             }
         });
         b7.addMouseListener(new MouseAdapter() {
@@ -143,13 +157,13 @@ public class GUI {
                 b7.setOpaque(false);
             }
         });
-        JButton b8 = new JButton("");
         b8.setOpaque(false);
         b8.setContentAreaFilled(false);
         b8.setBorderPainted(false);
+        b8.setFont(tileFont);
         b8.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b8);
             }
         });
         b8.addMouseListener(new MouseAdapter() {
@@ -162,13 +176,13 @@ public class GUI {
                 b8.setOpaque(false);
             }
         });
-        JButton b9 = new JButton("");
         b9.setOpaque(false);
         b9.setContentAreaFilled(false);
         b9.setBorderPainted(false);
+        b9.setFont(tileFont);
         b9.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello");
+                Game.board.setTile(b9);
             }
         });
         b9.addMouseListener(new MouseAdapter() {
@@ -197,6 +211,7 @@ public class GUI {
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.PAGE_AXIS));
         imageLabel.setLayout(new GridLayout(3, 3, 30, 30));
 
+        textField.setFont(font);
         textField.setEditable(false);
         textField.setHorizontalAlignment(JTextField.CENTER);
 
@@ -204,9 +219,5 @@ public class GUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setVisible(true);
-    }
-
-    public static void main(String[] args) {
-        GUI main = new GUI();
     }
 }

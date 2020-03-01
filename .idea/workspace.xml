@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="VisualTicTacToe:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2121384b-8958-4f15-90c4-cfb2baa26483" name="Default Changelist" comment="" />
+    <list default="true" id="2121384b-8958-4f15-90c4-cfb2baa26483" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VisualTicTacToe_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YJj6Y4KJQs0uiAE8tcFfa3JKLB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +38,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/VisualTicTacToe" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Game">
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI" />
       <module name="VisualTicTacToe" />
@@ -32,8 +58,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VisualTicTacToe.Game" />
+      <module name="VisualTicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VisualTicTacToe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GUI" />
+      <item itemvalue="Application.Game" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.GUI" />
       </list>
     </recent_temporary>
@@ -56,33 +100,38 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.726@0.23.1280.726" timestamp="1582681275729" />
-    <state width="1238" height="126" key="GridCell.Tab.0.bottom" timestamp="1582684087248">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1238" height="119" key="GridCell.Tab.0.bottom" timestamp="1583047599848">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1238" height="119" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1583047599848" />
     <state width="1238" height="126" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1582684087248" />
     <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1582679968028" />
     <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1582680251315" />
-    <state width="1238" height="126" key="GridCell.Tab.0.center" timestamp="1582684087247">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1238" height="119" key="GridCell.Tab.0.center" timestamp="1583047599846">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1238" height="119" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1583047599846" />
     <state width="1238" height="126" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1582684087247" />
     <state width="1238" height="166" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1582679968027" />
     <state width="1238" height="166" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1582680251313" />
-    <state width="1238" height="126" key="GridCell.Tab.0.left" timestamp="1582684087246">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1238" height="119" key="GridCell.Tab.0.left" timestamp="1583047599846">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1238" height="119" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1583047599846" />
     <state width="1238" height="126" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1582684087246" />
     <state width="1238" height="166" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1582679968026" />
     <state width="1238" height="166" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1582680251311" />
-    <state width="1238" height="126" key="GridCell.Tab.0.right" timestamp="1582684087248">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1238" height="119" key="GridCell.Tab.0.right" timestamp="1583047599848">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1238" height="119" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1583047599848" />
     <state width="1238" height="126" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1582684087248" />
     <state width="1238" height="166" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1582679968027" />
     <state width="1238" height="166" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1582680251314" />
-    <state x="149" y="25" key="SettingsEditor" timestamp="1582667616049">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state x="149" y="23" key="SettingsEditor" timestamp="1583047719178">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state x="149" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1583047719178" />
     <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1582667616049" />
     <state x="304" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1582667420955">
       <screen x="0" y="23" width="1280" height="726" />
