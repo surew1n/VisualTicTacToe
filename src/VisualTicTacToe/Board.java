@@ -4,6 +4,7 @@ import javax.swing.*;
 
 public class Board {
     private char[][] board = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
+    private boolean gameEnd = false;
     private boolean playerWon = false;
     GUI gui = new GUI();
 
@@ -51,33 +52,39 @@ public class Board {
         return condensed;
     }
 
-    public void checkWin() {
+    public void checkGameEnd() {
         String testCase;
         for(int i = 0; i < board[0].length; i++) {
             // Checking for row win
             testCase = condenseRC(i, "row");
             if(testCase.equals("XXX") || testCase.equals("OOO")) {
+                gameEnd = true;
                 playerWon = true;
             }
             //Checking for column win
             testCase = condenseRC(i, "column");
             if (testCase.equals("XXX") || testCase.equals("OOO")) {
+                gameEnd = true;
                 playerWon = true;
             }
             //Player 1 left diagonal win
             if(board[0][0] == 'X' && board[1][1] == 'X' && board[2][2] == 'X') {
+                gameEnd = true;
                 playerWon = true;
             }
             //Player 1 right diagonal win
             if(board[0][2] == 'X' && board[1][1] == 'X' && board[2][0] == 'X') {
+                gameEnd = true;
                 playerWon = true;
             }
             //Player 2 left diagonal win
             if(board[0][0] == 'O' && board[1][1] == 'O' && board[2][2] == 'O') {
+                gameEnd = true;
                 playerWon = true;
             }
             //Player 2 right diagonal win
             if(board[0][2] == 'O' && board[1][1] == 'O' && board[2][0] == 'O') {
+                gameEnd = true;
                 playerWon = true;
             }
         }
@@ -93,6 +100,10 @@ public class Board {
         gui.b7.setText(String.valueOf(board[2][0]));
         gui.b8.setText(String.valueOf(board[2][1]));
         gui.b9.setText(String.valueOf(board[2][2]));
+    }
+
+    public boolean getGameEnd() {
+        return gameEnd;
     }
 
     public boolean getPlayerWon() {

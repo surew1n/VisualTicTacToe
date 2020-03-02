@@ -14,16 +14,16 @@ public class Game {
         board.displayBoard();
         Thread.sleep(2000);
 
-        while(board.getPlayerWon() == false) {
+        while(board.getGameEnd() == false) {
             System.out.println("It is player " + curPlayer + "'s turn");
             GUI.textField.setText("It is player " + curPlayer + "'s turn");
-            synchronized(lock) {
+            synchronized (lock) {
                 System.out.println("Waiting for choice");
                 lock.wait();
             }
             System.out.println("Choice made");
 
-            board.checkWin();
+            board.checkGameEnd();
             board.displayBoard();
 
             if(curPlayer == 'X') {
@@ -33,12 +33,14 @@ public class Game {
             }
         }
 
-        if(curPlayer == 'X') {
-            System.out.println("The winner is player O");
-            GUI.textField.setText("The winner is player O");
-        } else if(curPlayer == 'O') {
-            System.out.println("The winner is player X");
-            GUI.textField.setText("The winner is player X");
+        if(board.getPlayerWon()) {
+            if (curPlayer == 'X') {
+                System.out.println("The winner is player O");
+                GUI.textField.setText("The winner is player O");
+            } else if (curPlayer == 'O') {
+                System.out.println("The winner is player X");
+                GUI.textField.setText("The winner is player X");
+            }
         }
     }
 }

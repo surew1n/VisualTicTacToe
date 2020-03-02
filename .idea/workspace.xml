@@ -7,12 +7,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2121384b-8958-4f15-90c4-cfb2baa26483" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VisualTicTacToe_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisualTicTacToe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VisualTicTacToe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/VisualTicTacToe_jar/VisualTicTacToe.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/META-INF/VisualTicTacToe.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualTicTacToe/VisualTicTacToe/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VisualTicTacToe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisualTicTacToe/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VisualTicTacToe/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisualTicTacToe/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VisualTicTacToe/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisualTicTacToe/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/board.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +82,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sherwin\IdeaProjects\VisualTicTacToe\res" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/VisualTicTacToe" />
     </key>
@@ -95,47 +140,70 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/VisualTicTacToe copy" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1582681275730">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.726@0.23.1280.726" timestamp="1582681275729" />
-    <state width="1238" height="119" key="GridCell.Tab.0.bottom" timestamp="1583047599848">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state x="474" y="209" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583106846997">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="474" y="209" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583106846997" />
+    <state x="783" y="407" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583106182535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="783" y="407" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583106182535" />
+    <state x="520" y="173" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1583106181246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="520" y="173" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583106181246" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1583129195174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583129195174" />
     <state width="1238" height="119" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1583047599848" />
     <state width="1238" height="126" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1582684087248" />
     <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1582679968028" />
     <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1582680251315" />
-    <state width="1238" height="119" key="GridCell.Tab.0.center" timestamp="1583047599846">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1583129195174">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583129195174" />
     <state width="1238" height="119" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1583047599846" />
     <state width="1238" height="126" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1582684087247" />
     <state width="1238" height="166" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1582679968027" />
     <state width="1238" height="166" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1582680251313" />
-    <state width="1238" height="119" key="GridCell.Tab.0.left" timestamp="1583047599846">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1583129195174">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583129195174" />
     <state width="1238" height="119" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1583047599846" />
     <state width="1238" height="126" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1582684087246" />
     <state width="1238" height="166" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1582679968026" />
     <state width="1238" height="166" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1582680251311" />
-    <state width="1238" height="119" key="GridCell.Tab.0.right" timestamp="1583047599848">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1583129195174">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583129195174" />
     <state width="1238" height="119" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1583047599848" />
     <state width="1238" height="126" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1582684087248" />
     <state width="1238" height="166" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1582679968027" />
     <state width="1238" height="166" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1582680251314" />
-    <state x="149" y="23" key="SettingsEditor" timestamp="1583047719178">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state x="224" y="0" key="SettingsEditor" timestamp="1583106897392">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="224" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583106897392" />
     <state x="149" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1583047719178" />
     <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1582667616049" />
-    <state x="304" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1582667420955">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state x="456" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1583115758809">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="456" y="279" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583115758809" />
     <state x="304" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.726@0.23.1280.726" timestamp="1582667420955" />
   </component>
 </project>

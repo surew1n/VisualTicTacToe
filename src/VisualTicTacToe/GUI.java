@@ -19,7 +19,7 @@ public class GUI {
     public GUI() {
         JFrame frame = new JFrame("Tic Tac Toe");
         JPanel mainPanel = new JPanel();
-        ImageIcon image = new ImageIcon("src/board.png");
+        ImageIcon image = new ImageIcon(getClass().getResource("/board.png"));
         JLabel imageLabel = new JLabel(image);
         Font font = new Font(Font.SERIF, Font.BOLD, 40);
         Font tileFont = new Font(Font.SANS_SERIF, Font.BOLD, 100);
@@ -27,6 +27,7 @@ public class GUI {
         b1.setOpaque(false);
         b1.setContentAreaFilled(false);
         b1.setBorderPainted(false);
+        b1.setFocusPainted(false);
         b1.setFont(tileFont);
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -46,6 +47,7 @@ public class GUI {
         b2.setOpaque(false);
         b2.setContentAreaFilled(false);
         b2.setBorderPainted(false);
+        b2.setFocusPainted(false);
         b2.setFont(tileFont);
         b2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -65,6 +67,7 @@ public class GUI {
         b3.setOpaque(false);
         b3.setContentAreaFilled(false);
         b3.setBorderPainted(false);
+        b3.setFocusPainted(false);
         b3.setFont(tileFont);
         b3.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -84,6 +87,7 @@ public class GUI {
         b4.setOpaque(false);
         b4.setContentAreaFilled(false);
         b4.setBorderPainted(false);
+        b4.setFocusPainted(false);
         b4.setFont(tileFont);
         b4.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -103,6 +107,7 @@ public class GUI {
         b5.setOpaque(false);
         b5.setContentAreaFilled(false);
         b5.setBorderPainted(false);
+        b5.setFocusPainted(false);
         b5.setFont(tileFont);
         b5.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -122,6 +127,7 @@ public class GUI {
         b6.setOpaque(false);
         b6.setContentAreaFilled(false);
         b6.setBorderPainted(false);
+        b6.setFocusPainted(false);
         b6.setFont(tileFont);
         b6.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -141,6 +147,7 @@ public class GUI {
         b7.setOpaque(false);
         b7.setContentAreaFilled(false);
         b7.setBorderPainted(false);
+        b7.setFocusPainted(false);
         b7.setFont(tileFont);
         b7.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -160,6 +167,7 @@ public class GUI {
         b8.setOpaque(false);
         b8.setContentAreaFilled(false);
         b8.setBorderPainted(false);
+        b8.setFocusPainted(false);
         b8.setFont(tileFont);
         b8.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -179,6 +187,7 @@ public class GUI {
         b9.setOpaque(false);
         b9.setContentAreaFilled(false);
         b9.setBorderPainted(false);
+        b9.setFocusPainted(false);
         b9.setFont(tileFont);
         b9.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
