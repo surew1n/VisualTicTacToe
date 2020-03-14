@@ -41,6 +41,9 @@ public class Game {
                 System.out.println("The winner is player X");
                 GUI.textField.setText("The winner is player X");
             }
+        } else {
+            System.out.println("The game is a tie");
+            GUI.textField.setText("The game is a tie");
         }
     }
 }

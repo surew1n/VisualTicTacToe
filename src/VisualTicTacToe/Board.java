@@ -87,6 +87,19 @@ public class Board {
                 gameEnd = true;
                 playerWon = true;
             }
+
+            //Checking tie
+            int full = 0;
+            for(int r = 0; r < board.length; r++) {
+                for(int c = 0; c < board[0].length; c++) {
+                    if(board[r][c] != ' ') {
+                        full++;
+                    }
+                }
+            }
+            if(full == 9) {
+                gameEnd = true;
+            }
         }
     }
 
